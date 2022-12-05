@@ -1,0 +1,998 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+/* ---------------------------    header css here -------------------------------------   */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 19rem;
+    position: relative;
+   
+}
+header nav #logodiv a img{
+   width: 9rem;
+   height: 5rem;
+ 
+
+}
+
+header nav a{
+    text-decoration: none;
+    padding: 3rem 2rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .7s;
+    color: #027e5d;
+    
+}
+header nav a:hover{
+    color: white;
+}
+
+/* --------------------------------   section 1 css here -----------------      */
+#section-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 19rem;
+    height: 60.2rem;
+      
+
+    
+}
+/* ------------------------------------  home leftside css here ----------------------------------*/
+#leftbox{
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 40vh;
+
+}
+#section-one #leftbox h1{
+    font-size: 6rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+   line-height: 8rem;
+   width: 50rem;
+  
+
+    
+}
+#section-one #leftbox h3{
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #027e5d;
+    width: 50rem;
+   
+  
+}
+#section-one #leftbox p{
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+
+
+  
+}
+#section-one #leftbox button{
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    width: 30%;
+    /* border-radius: 3rem; */
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 2rem;
+    margin-top: 3rem;
+    transition: .7s;
+
+}
+#section-one #leftbox button:hover{
+    background-color: brown;
+
+}
+#section-one::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 65rem;
+    z-index: -1;
+    
+    background: rgb(147,244,222);
+    background: linear-gradient(164deg, rgba(147,244,222,1) 0%, rgba(196,230,120,1) 93%);
+    top: 0;
+    left: 0;
+    
+    
+}
+header nav::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgb(240, 240, 240);
+    opacity: .1;
+    top: 0;
+    left: 0;
+    
+}
+
+/*   --------------------------------        home right side css here  ----------        */
+#section-one #rightbox img{
+    width: 60rem;
+    height: 58rem;
+}
+#section-one #rightbox{
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+
+
+}
+
+
+
+
+/* ---------------------------------------section two css here------------------------  */
+#section-two #what ul{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#section-two{
+    padding: 2rem 19rem;
+    margin-top: 3rem;
+
+
+}
+#section-two #what li{
+    list-style: none;
+    padding: 2rem 5rem;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+#section-two #about-div{
+    /* display: grid; */
+    padding: 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    /* flex-direction: row; */
+    margin: 3rem 5rem;
+    width: 91rem;
+    height: 42rem;
+
+}
+/* ------------------------------- section two left side image box css here =-------------------------------- */
+
+#section-two #about-div #photo img { 
+
+    width: 37rem;
+        height: 40rem;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+#section-two #about-div #photo{ 
+    margin: 0 5rem;
+    margin-bottom: 3rem;
+  
+}
+/* ---------------------------------section two rights died box css here -----------------------------------*/
+#section-two #about-div #mystory{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start ;
+    flex-direction: column;
+    height: 45rem;
+    width: 93rem;
+
+}
+#section-two #about-div #mystory h1{
+    font-size: 5rem;
+    width: 55rem;
+    font-weight: 900;
+    margin-bottom: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+#section-two #about-div #mystory p{
+    width: 40rem;
+    height: 3rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+#section-two #about-div #mystory #second-para {
+    width: 46rrem;
+    
+        height: 18rem;
+   
+        line-height: 2.2rem;
+        font-size: 1.2rem;
+        top: 1rem;
+    
+        position: relative;
+}
+#section-two #about-div #mystory h2{
+    font-size: 1.8rem;
+    width: 40rem;
+    height: 9rem;
+    position: relative;
+    top: 6.2rem;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+
+/* ------------------------------------------section 3 css here ------------------------------------------*/
+#section-3 #services-heading ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+#section-3 #services-heading li{
+    list-style: none;
+    padding: 2rem 5rem;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+#section-3{
+    padding: 0 19rem;
+   
+}
+#section-3 .services-heading2 h1{
+    
+    font-size: 4rem;
+    text-align: center;
+    line-height: 5rem;
+    padding: 2rem 0rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+    margin-left: 5rem;
+   width: 90rem;
+   line-height: 6rem;
+   margin: auto;
+}
+
+/* ------------------------------------- secion 3 serivce bos css---------------------- */
+#section-3 .services-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+    width: 100%;
+    height: 100%;
+    grid-gap: 2rem;
+    /* padding: 0 20rem; */
+    margin-bottom: 1.4rem;
+
+}
+#section-3 .services-box P{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+}
+#section-3 .services-box h2{
+    font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+#section-3 .services-box #photoshop{
+    
+    background: rgba(196,230,120,1);
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 2rem;
+}
+
+#section-3 .services-box #photoshop img{
+    width: 25rem;
+   
+        height: 24rem;
+        margin: auto;
+        display: inherit;
+        transition: .3s;
+}
+#section-3 .services-box #graphic img:hover{
+    transform: rotate(360deg);
+  
+}
+#section-3 .services-box #graphic{
+   
+    background: rgba(147,244,222,1);
+    font-family: 'Josefin Sans', sans-serif;   
+    border-radius: 2rem; 
+    
+}
+
+#section-3 .services-box #graphic img{
+    width: 25rem;
+    height: 24rem;
+    margin: auto;
+    display: inherit;
+    position: relative;
+    transition: .3s;
+}
+#section-3 .services-box #photoshop:hover > img{
+  transform: rotate(360deg);
+  
+}
+
+/* ----------------------------------section 4 or portfolio css here -------------------------------------- */
+#section-4{
+    padding: 0rem 19rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+
+   
+  
+}
+.portfolio #portfolio-images-vertical{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+   
+}
+.portfolio #portfolio-images-vertical img{
+    width: 25rem;
+    height: 27rem;
+    margin: 0 2rem;
+    
+  
+}
+
+#portfolio-heading {
+    margin-top: 3rem;
+}
+#portfolio-heading  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+#portfolio-heading  li{
+    list-style: none;
+    margin: 0rem 3rem;
+
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+}
+.images-horizontal img{
+    min-width: 43rem;
+    min-height: 25rem;
+    width: 43rem;
+    height: 25rem;
+    margin: 1.2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-4 #portfolio-images-horizontal-1, #portfolio-images-horizontal-2, #portfolio-images-horizontal-3{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+/* .portfolio #portfolio-images-horizontal-1{
+    grid-area: images1;
+}
+.portfolio #portfolio-images-horizontal-2{
+    grid-area: images2;
+}
+.portfolio #portfolio-images-horizontal-3{
+    grid-area: images3;
+} */
+
+.portfolio div a h2{
+
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+     transition: .9s;
+     width: 40rem;
+     margin: auto;
+     transition: .9s;
+  text-align: center;
+
+
+
+}
+.portfolio div a h2:hover{
+    font-size: 2.4rem;
+
+    color: white;
+    border-radius: 3rem;
+    /* margin-top: 3rem ;
+    margin-bottom: 3rem; */
+     background-color: turquoise;
+  
+}
+.portfolio div a{
+text-decoration: none;
+
+
+
+
+}
+/* -------------------------------footer css here ------------------------------------------ */
+#footer {
+   
+    height: 40rem;
+    width: 100%;
+    /* background-color: rgb(184, 247, 120); */
+    padding: 0 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(147,244,222);
+    background: linear-gradient(164deg, rgb(114, 230, 203) 0%, rgb(190, 235, 92) 93%);
+}
+#footer #logo a img{
+    width: 9rem;
+    height: 5rem;
+}
+#footer #logo h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+#footer #call img{
+    width: 10rem;
+    height: 8rem;
+    margin: auto;
+    display: flex;
+    transition: .3s; 
+}
+#footer #call img:hover{
+    transform: rotate(360Deg);
+  
+}
+#footer #call h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+  
+}
+#footer #watsapp img{
+    width: 11rem;
+    height: 10rem;
+    margin: auto;
+    display: flex;
+    transition: .5s;
+
+}
+#footer #watsapp img:hover{
+    transform: rotate(360Deg);
+}
+#footer #watsapp h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+  
+
+
+}
+#fotter-last{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    text-transform: capitalize;
+
+}
+/* ------------------------------------responsive cdd here destop small-------------------------------------------------------------- */
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    html {
+      /* background-color: lightblue; */
+      font-size: 70%;
+      
+
+    }
+    #section-one {
+        height: 53.2rem;
+    }
+    #portfolio-heading {
+        margin-top: 4rem;
+    }
+ 
+    .portfolio #portfolio-images-vertical img{
+        width: 28rem;
+        height: 33rem;
+      
+    }
+    #section-one::before {
+        height: 61rem;
+    }
+    
+        
+  }
+
+  /* -------------------------------bigger screen css here desktop bigger----------------------------------- */
+
+
+  @media only screen and (min-width: 1600px) {
+    html {
+      /* background-color: lightblue; */
+      font-size: 75%;
+      
+
+    }
+    #section-one {
+        height: 53.2rem;
+    }
+    #portfolio-heading {
+        margin-top: 4rem;
+    }
+ 
+    .portfolio #portfolio-images-vertical img{
+        width: 32rem;
+        height: 37rem;
+      
+    }
+    .images-horizontal img{
+        width: 50rem;
+        height: 25rem;
+    }
+    #section-one::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 61rem;
+    }
+        
+  }
+/*------------------------------------- samll destop/laptop phone css here ----------------------------------------------------------- */
+
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    html {
+      /* background-color: lightblue; */
+      font-size: 40%;
+      
+
+    }
+    #section-one {
+        /* height: 67.2rem; */
+        height: 51.2rem;
+
+    }
+    #portfolio-heading {
+        /* margin-top: 4rem; */
+    }
+ 
+    .portfolio #portfolio-images-vertical img{
+        width: 25rem;
+        height: 30rem;
+      
+    }
+    .images-horizontal img{
+        width: 48rem;
+        height: 30rem;
+        gri
+    }
+    #section-one::before {
+        height: 56rem;
+    }
+    .images-horizontal img {
+        width: 46rem;
+        height: 28rem;
+    }
+    .portfolio #portfolio-images-vertical img{
+        width: 28rem;
+        height: 32rem;
+      
+    }
+    #section-one #rightbox img {
+        width: 47rem;
+  
+        height: 45rem;
+
+    }
+   
+    
+        
+        
+  }
+
+
+/* ------------------------------------mobile css here ------------------------------------------- */
+
+
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+    html {
+      /* background-color: lightblue; */
+      font-size: 15%;
+      
+
+    }
+   
+    #portfolio-heading {
+        margin-top: 5rem;
+    }
+    .portfolio{
+        margin-bottom: 4rem;
+    }
+ 
+    .portfolio #portfolio-images-vertical img{
+        width: 32.4rem;
+        height: 35rem;
+      
+    }
+    .images-horizontal img{
+        width: 52rem;
+            height: 33rem;
+       
+    }
+    
+
+    #section-one{
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        margin-bottom: 5rem;
+        padding: 0 15rem;
+        height: 124rem;
+           
+    }
+    #section-one #rightbox img{
+        width: 74rem;
+            height: 72rem;
+    }
+    #section-one #rightbox{
+     width: 50%;
+     order: 1;
+     
+
+    }
+    #section-one #leftbox{
+       
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 144rem;
+         
+
+    }
+    #section-one #leftbox p{
+        font-size: 4.8rem;  
+        left: 1rem;
+        position: relative;
+       
+    }
+    #section-one #leftbox h3{
+        font-size: 8rem;
+        position: relative;
+        line-height: 12rem;
+        font-weight: 400;
+        left: 1rem;
+        
+    }
+    header nav{
+        display: flex;
+     
+        flex-direction: column;
+        margin: 1.2rem 0rem;
+       
+    }
+    header nav #logodiv a img {
+        margin-bottom: 3rem;
+    }
+    header nav #logodiv a img {
+        width: 20rem;
+        height: 11rem;
+    }
+     header nav #menudiv{
+        font-size: 3.5rem;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    header nav a {
+       
+        font-size: 4.7rem;
+        padding: 2rem 4rem;
+        font-weight: 400;
+    }
+    #section-one::before {
+        height: 147rem;
+    }
+    #section-one #leftbox h1 {
+ 
+        font-size: 20.3rem;
+    width: 146rem;
+        line-height: 19rem;
+    }
+        
+    #section-one #leftbox button{
+        font-size: 1.9rem;
+    }
+    .portfolio div a h2 {
+        margin-top: 5rem;
+      font-size: 2rem;
+    }
+    #section-two {
+       
+        /* width: 129rem; */
+        height: 287rem;
+        /* width: 115rem; */
+    }
+    #section-two #about-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        height: 275rem;
+        /* width: 137rem; */
+        /* width: 100%; */
+        width: inherit;
+    }
+   
+    #section-two #about-div #photo img {
+        width: 148rem;
+        height: 165rem;
+    }
+    #section-two #about-div #photo {
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        /* width: 143rem; */
+        /* width: 100%; */
+        width: inherit;
+    }
+    
+    #section-two #about-div #mystory h1 {
+        font-size: 17rem;
+        width: 139rem;
+    }
+   
+    #section-two #about-div #mystory {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100rem;
+        width: 139rem;
+        /* width: 100%; */
+    }
+    #section-two #about-div #mystory p {
+        width: 139rem;
+        height: 23rem;
+        line-height: 6.2rem;
+        font-size: 4.7rem;
+    }
+    #section-two #about-div #mystory #second-para {
+        width: 139rem;
+        height: 18rem;
+        line-height: 6.2rem;
+        font-size: 4.8rem;
+        top: 5rem;
+        position: relative;
+    }
+    #section-two #about-div #mystory h2 {
+        font-size: 6rem;
+        width: 139rem;
+        height: 22rem;
+        position: relative;
+        top: 6rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+
+    /* ---------------------section 3 css of mobile here -------------------- */
+    #section-3 .services-box{
+        display: grid;
+    
+        grid-template-columns: 1fr;
+   
+    grid-gap: 9rem;
+    margin-bottom: 5rem;
+        
+       
+    
+    }
+    #section-3 .services-heading2 h1 {
+        font-size: 4rem;
+        text-align: center;
+        line-height: 5rem;
+        padding: 5rem 0;
+  
+    }
+    #section-3{
+        padding: 0 7rem;
+    }
+    #section-one{
+        padding: 0 7rem;
+    }
+    #section-two {
+        padding: 0rem 7rem;
+        
+    }
+    header nav {
+        padding: 0 7rem;
+    }
+    #section-3{
+        padding: 0 17rem;
+
+    }
+    #section-4 {
+        padding: 0 7rem;
+    }
+    #footer {
+        padding: 0 20rem;
+    }
+    
+
+    
+   
+    .portfolio #portfolio-images-vertical{
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    flex-direction: column;
+      
+       
+       
+    }
+    .portfolio #portfolio-images-vertical img{
+        width: 117rem;
+            height: 132rem;
+        margin: 4rem 2rem;
+        
+      
+    }
+    /*-------------------------------- horizontal images */
+    .images-horizontal img{
+        width: 130rem;
+            height: 77rem;
+        
+       
+       
+        margin: 1.5rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    
+    #section-4 #portfolio-images-horizontal-1, #portfolio-images-horizontal-2, #portfolio-images-horizontal-3{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+      
+    
+    }
+    #section-4 #portfolio-images-horizontal-1, #portfolio-images-horizontal-2{
+        display: none;
+    }
+  }
+
+/* ---------------------------------- tablet css her --------------------------------------------- */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    html{
+        font-size: 26%;
+    }
+    /* home section css here of tablet ------------------------------- */
+    #section-one{
+        padding: 0 17rem;
+    }
+    #section-two {
+        padding: 2rem 17rem;
+        height: 71rem;
+    }
+    header nav {
+        padding: 0 17rem;
+    }
+    #section-3{
+        padding: 0 17rem;
+
+    }
+    #section-4 {
+        padding: 0 17rem;
+    }
+    #footer {
+        padding: 0 17rem;
+    }
+    
+    #section-one::before {
+       height: 67rem;
+    
+}
+#section-one #leftbox button{
+    font-size: 2rem;
+}
+/* 2 section css here ------------------------ */
+#section-two #about-div #photo img {
+    width: 49rem;
+
+    height: 51rem;
+}
+#section-two #about-div #mystory h1 {
+    font-size: 8rem;
+    width: 37rem;
+}
+#section-two #about-div #mystory p {
+    width: 53rem;
+
+    height: 4rem;
+
+    line-height: 2.7rem;
+    font-size: 2.2rem;
+}
+#section-two #about-div #mystory h2 {
+    font-size: 3rem;
+    width: 49rem;
+
+    height: 23rem;
+
+    position: relative;
+    top: 12rem;
+
+}
+#section-two #about-div {
+    
+    padding: 0px 15rem;
+    
+}
+#section-two #about-div #mystory {
+   
+    height: 41rem;
+}
+
+}
